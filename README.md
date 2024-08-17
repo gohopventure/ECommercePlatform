@@ -1,5 +1,3 @@
-This document is designed to be comprehensive and cover all aspects of the project, including setup, development, deployment, and best practices.
-
 ```markdown
 # ECommercePlatform Microservices Architecture
 
@@ -284,5 +282,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ```
-
-This `README.md` is comprehensive and should help anyone interested in working with or understanding your microservices-based eCommerce platform. You can adjust sections based on your specific requirements or preferences.
