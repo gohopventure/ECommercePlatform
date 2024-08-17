@@ -105,7 +105,7 @@ ECommercePlatform/
 │   │   └── Dockerfile
 │   │
 |   ├── .gitignore
-│   └── ECommercePlatform.sln  # Solution file for the entire aspnet    project
+│   └── ECommercePlatform.sln  # Solution file for the entire aspnet project
 │
 ├── .gitignore
 └── README.md
