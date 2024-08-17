@@ -1,4 +1,4 @@
-Here's a verbose `README.md` for your microservices-based eCommerce platform. This document is designed to be comprehensive and cover all aspects of the project, including setup, development, deployment, and best practices.
+This document is designed to be comprehensive and cover all aspects of the project, including setup, development, deployment, and best practices.
 
 ```markdown
 # ECommercePlatform Microservices Architecture
