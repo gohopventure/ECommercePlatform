@@ -1,0 +1,11 @@
+# Node.js dependencies
+node_modules/
+
+# Angular build output
+dist/
+
+# Compiled files
+*.tsbuildinfo
+
+# Environment variables
+.env

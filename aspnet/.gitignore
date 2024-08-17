@@ -1,0 +1,39 @@
+# .NET related
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.generated.cs
+packages/
+*.log
+project.lock.json
+project.fragment.lock.json
+.vs/
+.vscode/
+.idea/
+
+# Angular related
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+
+# Docker related
+docker-compose.override.yml
+docker-compose.debug.yml
+.docker/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.iml
+.idea/
+
+# Temporary files
+*.tmp
+*.swp

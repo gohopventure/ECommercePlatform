@@ -1,0 +1,29 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs
+*.log
+
+# Ignore sensitive configuration files
+secrets.json
+appsettings.Development.json
+
+# Ignore IDE-specific files
+*.vs/
+.vscode/
+.idea/
+
+# Packages
+packages/
+
+# Dependency manager files
+project.lock.json
+project.fragment.lock.json

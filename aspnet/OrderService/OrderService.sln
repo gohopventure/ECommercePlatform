@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D640FD26-69F7-4B6D-A1A5-13686816A8D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{35A21AFE-09CB-4FAF-ABFB-1858DF74B35E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.API", "src\OrderService\OrderService.API\OrderService.API.csproj", "{24A583A2-B656-427D-9791-D477D421B7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Core", "src\OrderService\OrderService.Core\OrderService.Core.csproj", "{2A804678-DE75-4BDB-9940-C2BDAD1C6AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.Data", "src\OrderService\OrderService.Data\OrderService.Data.csproj", "{1AE206B9-4367-492C-968D-E958BBD88B3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService.Tests", "OrderService.Tests", "{3CF8896E-97E2-4899-9444-0031AC918DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersControllerTests", "src\OrderService.Tests\OrdersControllerTests\OrdersControllerTests.csproj", "{E8DAB0A6-B575-462E-A650-BE1A27CE2811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersServiceTests", "src\OrderService.Tests\OrdersServiceTests\OrdersServiceTests.csproj", "{F7B5B782-F8C3-4F2D-BA89-5BD2BD3D49C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24A583A2-B656-427D-9791-D477D421B7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A583A2-B656-427D-9791-D477D421B7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A583A2-B656-427D-9791-D477D421B7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A583A2-B656-427D-9791-D477D421B7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A804678-DE75-4BDB-9940-C2BDAD1C6AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A804678-DE75-4BDB-9940-C2BDAD1C6AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A804678-DE75-4BDB-9940-C2BDAD1C6AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A804678-DE75-4BDB-9940-C2BDAD1C6AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AE206B9-4367-492C-968D-E958BBD88B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AE206B9-4367-492C-968D-E958BBD88B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AE206B9-4367-492C-968D-E958BBD88B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AE206B9-4367-492C-968D-E958BBD88B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DAB0A6-B575-462E-A650-BE1A27CE2811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DAB0A6-B575-462E-A650-BE1A27CE2811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DAB0A6-B575-462E-A650-BE1A27CE2811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DAB0A6-B575-462E-A650-BE1A27CE2811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B5B782-F8C3-4F2D-BA89-5BD2BD3D49C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B5B782-F8C3-4F2D-BA89-5BD2BD3D49C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B5B782-F8C3-4F2D-BA89-5BD2BD3D49C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B5B782-F8C3-4F2D-BA89-5BD2BD3D49C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35A21AFE-09CB-4FAF-ABFB-1858DF74B35E} = {D640FD26-69F7-4B6D-A1A5-13686816A8D6}
+		{24A583A2-B656-427D-9791-D477D421B7E8} = {35A21AFE-09CB-4FAF-ABFB-1858DF74B35E}
+		{2A804678-DE75-4BDB-9940-C2BDAD1C6AC4} = {35A21AFE-09CB-4FAF-ABFB-1858DF74B35E}
+		{1AE206B9-4367-492C-968D-E958BBD88B3D} = {35A21AFE-09CB-4FAF-ABFB-1858DF74B35E}
+		{3CF8896E-97E2-4899-9444-0031AC918DEB} = {D640FD26-69F7-4B6D-A1A5-13686816A8D6}
+		{E8DAB0A6-B575-462E-A650-BE1A27CE2811} = {3CF8896E-97E2-4899-9444-0031AC918DEB}
+		{F7B5B782-F8C3-4F2D-BA89-5BD2BD3D49C5} = {3CF8896E-97E2-4899-9444-0031AC918DEB}
+	EndGlobalSection
+EndGlobal

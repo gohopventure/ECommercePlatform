@@ -1,0 +1,6 @@
+# Docker-related files
+docker-compose.override.yml
+docker-compose.debug.yml
+
+# Docker build caches
+.docker/

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{39EFB926-670C-4E9B-9925-107272BB292D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway.Tests", "ApiGateway.Tests", "{7EA0545E-2268-4077-971C-9E9A6B79558A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGatewayControllerTests", "src\ApiGateway.Tests\ApiGatewayControllerTests\ApiGatewayControllerTests.csproj", "{36A66A3F-9308-444A-B925-3E5794440708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGatewayServicesTests", "src\ApiGateway.Tests\ApiGatewayServicesTests\ApiGatewayServicesTests.csproj", "{35CACBDA-18A0-4B76-930F-944FC8836AF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{C4204101-3B53-4F66-A488-9C93D491E05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.API", "src\ApiGateway\ApiGateway.API\ApiGateway.API.csproj", "{42E0A749-CB7A-4DCB-A0C6-7A9C2FB5C1B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.Data", "src\ApiGateway\ApiGateway.Data\ApiGateway.Data.csproj", "{2A4031F9-C01A-4235-A7D2-D9925A468FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.Core", "src\ApiGateway\ApiGateway.Core\ApiGateway.Core.csproj", "{93C544E0-208E-41AD-A785-1E4C942D0178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A66A3F-9308-444A-B925-3E5794440708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A66A3F-9308-444A-B925-3E5794440708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A66A3F-9308-444A-B925-3E5794440708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A66A3F-9308-444A-B925-3E5794440708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CACBDA-18A0-4B76-930F-944FC8836AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CACBDA-18A0-4B76-930F-944FC8836AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CACBDA-18A0-4B76-930F-944FC8836AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CACBDA-18A0-4B76-930F-944FC8836AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E0A749-CB7A-4DCB-A0C6-7A9C2FB5C1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E0A749-CB7A-4DCB-A0C6-7A9C2FB5C1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E0A749-CB7A-4DCB-A0C6-7A9C2FB5C1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E0A749-CB7A-4DCB-A0C6-7A9C2FB5C1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A4031F9-C01A-4235-A7D2-D9925A468FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4031F9-C01A-4235-A7D2-D9925A468FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4031F9-C01A-4235-A7D2-D9925A468FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4031F9-C01A-4235-A7D2-D9925A468FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C544E0-208E-41AD-A785-1E4C942D0178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C544E0-208E-41AD-A785-1E4C942D0178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C544E0-208E-41AD-A785-1E4C942D0178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C544E0-208E-41AD-A785-1E4C942D0178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EA0545E-2268-4077-971C-9E9A6B79558A} = {39EFB926-670C-4E9B-9925-107272BB292D}
+		{36A66A3F-9308-444A-B925-3E5794440708} = {7EA0545E-2268-4077-971C-9E9A6B79558A}
+		{35CACBDA-18A0-4B76-930F-944FC8836AF0} = {7EA0545E-2268-4077-971C-9E9A6B79558A}
+		{C4204101-3B53-4F66-A488-9C93D491E05A} = {39EFB926-670C-4E9B-9925-107272BB292D}
+		{42E0A749-CB7A-4DCB-A0C6-7A9C2FB5C1B4} = {C4204101-3B53-4F66-A488-9C93D491E05A}
+		{2A4031F9-C01A-4235-A7D2-D9925A468FE9} = {C4204101-3B53-4F66-A488-9C93D491E05A}
+		{93C544E0-208E-41AD-A785-1E4C942D0178} = {C4204101-3B53-4F66-A488-9C93D491E05A}
+	EndGlobalSection
+EndGlobal
